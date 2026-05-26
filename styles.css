@@ -16,7 +16,7 @@ h2.home {
 
 a {
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
 }
 /*rearrajando as divs, criando um segundo bloco, pra ter
 dps do alinhamento vertical, o alinhamento do segundo blco horizontal*/
