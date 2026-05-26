@@ -1,0 +1,31 @@
+body {
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    height: auto;
+    display: block;
+}
+
+.abertura, .catalogo, .apresentacao {
+    text-align: justify;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-bottom: 15px;
+
+    border: 1px solid #000;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px;
+}
+
+.abertura{
+    background-color: pink;
+}
+
+.catalogo {
+    background-color: rgb(105, 155, 155);
+}
+
+.apresentacao {
+    background-color: gray;
+}
