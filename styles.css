@@ -42,7 +42,6 @@ dps do alinhamento vertical, o alinhamento do segundo blco horizontal*/
   border: 1px solid #000; /*expessura da borda*/
   border-radius: 12px; /*suavidade da borda*/
   box-shadow: 0 4px 6px white; /*luz no fundo*/
-  text-decoration: none;
   font-weight: bold;
 }
 
