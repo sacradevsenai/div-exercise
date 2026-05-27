@@ -1,3 +1,4 @@
+
 body {
   height: 100vh;
   display: flex;
@@ -183,4 +184,34 @@ footer p {
 
 footer a {
   text-decoration: underline;
+}
+
+/* --- RESPONSIVIDADE PARA CELULAR --- */
+@media (max-width: 768px) {
+    
+    h1 {
+        font-size: 2rem !important;
+        text-align: center !important;
+        line-height: 1.2 !important;
+    }
+
+    .horizon-centralize { 
+        display: flex !important;
+        flex-direction: column !important; /* Muda para coluna */
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 15px !important;              /* Reduz o espaço de 100px para 15px */
+        margin: 30px 0px !important;       /* 30px em cima/baixo e ZERO nas laterais para não esmagar! */
+        width: 100% !important;
+    }
+
+    .cardapio,
+    .historia {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 80% !important;             /* Agora os 200px fixos viram 80% da tela */
+        max-width: 290px !important;
+        height: 60px !important;           /* Altura menor e elegante */
+    }
 }
